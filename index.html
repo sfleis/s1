@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Prijava za nagradnu igru</title>
+    <link rel="stylesheet" href="stil.css">
+    
+</head>
+
+
+<body>
+
+    <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+</div >
+    
+    <div class="container">
+        <h1>NAGRADNA IGRA PUTNIČKE AGENCIJE URBI et ORBI!</h1>
+        <form action="/action_page.php">
+        <details>
+        <summary> PRAVO SUDJELOVANJA! <br> Pravo sudjelovanja u nagradnoj igri imaju sve fizičke osobe s prebivalištem u Republici Hrvatskoj 
+        <br />
+        <br>
+        <br>
+        Kako bi imali pravo sudjelovanja u nagradnoj igri, sudionici moraju ostaviti sljedeće  osobne podatke: ime i prezime, kontakt broj i e-mail adresu.!
+        </summary>
+        </details>
+        <br>
+        <br>
+        
+        
+    <fieldset>
+        <legend><b>ISPUNITE I OSVOJITE SVOJE PUTOVANJE IZ SNOVA</b></legend><br />
+            <label for="ime">Ime:</label><br />
+            <input type="text" name="ime" id="ime" />
+        <br />
+                
+     <br />
+            <label for="prezime">Prezime:</label><br />
+            <input type="text" name="prezime" id="prezime" />
+        <br />
+        <br />
+        <hr />
+        
+        <br />
+        Spol:
+        <br />
+        <br />
+        <label for="zenski">Žena</label>
+        <input type="radio" id="zenski" name="spol" value="zena" />
+        <label for="muski">Muškarac</label>
+        <input type="radio" id="muski" name="spol" value="muskarac" /><br>
+        
+        <br />
+        <br />
+        <hr>
+        <br />
+        <label for="datum">Datum rođenja</label>
+        <br />
+		<br />
+		<input type="date" name="datum" id="datum" />	
+        <br />
+        <br /> 
+        <hr>
+<br>
+        Odaberite gdje želite otputovati:
+        <br />
+        <input list="lokacije">
+        
+        <datalist id="lokacije">
+          <option value="Pariz, Francuska">
+          <option value="Tokyo, Japan">
+          <option value="London, Engleska">
+          <option value="Istanbul, Turska">
+          <option value="Amsterdam, Nizozemska">
+          <option value="Milan, Italija">
+            <option value="Cairo, Egipat">
+            <option value="Prag, Češka"></option>
+        </datalist>
+        <br>
+        <br>
+        <hr>
+
+ <label for="phone">Kontaktni broj:</label>
+<input type="tel" id="phone" name="phone" required/>
+<br>
+<br>
+<hr>
+<label for="email">Unesite svoj e-mail:</label>
+
+<input type="email" id="email" required>
+
+</fieldset>
+        <br />
+        <br />
+        
+
+
+<br />
+<p>Ako ste unijeli sve podatke, molimo završite prijavu.</p>
+<br />
+<br />
+
+
+
+    
+<div id="kraj"><button type="button" onclick="alert('Prijavnica je uspješno poslana. Sretno!')">PODNESI</button></div>
+<br />
+<hr /> 
+
+</form>
+    </div>
+
+      
+        
+</body>
+</html>
